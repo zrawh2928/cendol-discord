@@ -1,0 +1,31 @@
+{
+  "name": "cendol",
+  "version": "0.0.1",
+  "description": "Main bot at Garuda Development Discord Server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.6",
+    "discord.js": "^11.4.2",
+    "fs": "^0.0.2",
+    "snekfetch": "^4.0.4",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "sqlite-json-export": "^0.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-sqlite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

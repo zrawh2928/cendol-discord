@@ -1,0 +1,32 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+}
+
+body {
+	font-family: lato-light;
+}
+
+a {
+	text-decoration: none;
+}
+
+.right.menu {
+	margin-left:auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.item {
+	padding:5px 15px;
+	color:#f95f61;
+	font-family: lato-regular;
+	border-bottom:2px solid #fff;
+	transition:all 0.6s ease-out;
+}
+
+.item:hover {
+	border-bottom:2px solid #f95f61;
+}
